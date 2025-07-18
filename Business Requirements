@@ -1,0 +1,41 @@
+📄 Business Requirement Document (BRD)
+The purpose of this project is to analyze customer churn patterns in a bank using Power BI and identify key factors that influence whether customers choose to leave or stay. By leveraging various customer attributes, this report aims to support churn prevention strategies through insightful visualization.
+
+🔍 Data Dictionary
+The dataset contains several fields that help in understanding customer behavior. Some columns, such as RowNumber, CustomerId, and Surname, are not influential in predicting churn and are mainly identifiers. However, other fields provide valuable insights.
+
+CreditScore is a critical metric—customers with higher credit scores are generally less likely to leave the bank. The credit score can be classified into five categories: Excellent (800–850), Very Good (740–799), Good (670–739), Fair (580–669), and Poor (300–579).
+
+Geography, representing a customer’s location, may influence churn based on regional behaviors or service availability. Similarly, Gender has been analyzed to understand if there’s any churn trend based on male or female customers.
+
+Age plays a significant role, as younger customers are statistically more likely to leave the bank compared to older clients. Tenure, or the number of years the customer has been with the bank, often correlates with loyalty—the longer the tenure, the less likely the customer is to exit.
+
+Balance is another useful indicator—clients with higher account balances typically show lower churn rates. The NumOfProducts field represents how many banking products a customer uses, which may impact engagement and retention.
+
+Credit card ownership, represented by the HasCrCard field (1 for credit card holder, 0 for non-holder), is also an influencing factor, as credit card users are more engaged and thus less likely to leave. Similarly, IsActiveMember (1 for active, 0 for inactive) directly impacts churn, with active members being less prone to exit.
+
+The EstimatedSalary gives insight into the customer’s income level, and when analyzed alongside balance and product usage, helps understand retention behavior. The Exited field is the target variable: 0 for retained customers and 1 for those who left. Bank DOJ refers to the date a customer joined the bank, helping to track historical tenure and service duration.
+
+📦 Data Gathering
+All insights in this project were derived from a collection of datasets related to banking customers. These include:
+
+ActiveCustomer
+
+Bank_Churn
+
+CreditCard
+
+CustomerInfo
+
+ExitCustomer
+
+Gender
+
+Geography
+
+These datasets cover demographic information, credit behavior, account status, churn history, and location-based patterns.
+
+📉 Churn Analysis
+Customer churn is a crucial concern for financial institutions. By understanding why customers leave, banks can take proactive steps to improve retention. This analysis identifies patterns across credit score bands, age groups, activity status, and regional differences.
+
+Through visual dashboards, the report reveals that churn is higher among inactive members, non-credit card holders, and those with poor credit scores or shorter tenures. Such insights can help banks develop targeted loyalty programs, personalized offers, and customer engagement strategies to reduce churn and improve long-term profitability.
