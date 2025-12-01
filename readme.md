@@ -80,5 +80,14 @@ All files are available in the `/DataSets/` folder.
 5. Use slicers and visuals to explore churn trends and segment breakdowns.
 
 ---
+## Results
+
+The dashboard helps identify which regions, age groups, and customer segments are more likely to churn.
+
+It highlights patterns in customer activity, credit score ranges, and product usage that contribute to churn risk.
+
+The visuals make it easy to compare exit vs. retained customers and spot trends across months and years.
+
+The report gives a clear picture of what types of customers may need more attention to improve retention.
 
 
