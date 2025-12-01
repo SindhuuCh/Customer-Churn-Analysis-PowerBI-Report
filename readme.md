@@ -1,16 +1,16 @@
-# 🧠 Banking Customer Churn Analysis Dashboard – Power BI
+# Banking Customer Churn Analysis Dashboard – Power BI
 
 This project presents an interactive **Customer Churn Analysis Dashboard** built using **Power BI**. It analyzes a fictional bank’s customer data to identify patterns and key factors contributing to customer churn. The goal is to help the bank understand which customer segments are at risk of leaving and support strategic decisions to improve retention.
 
 ---
 
-## 📌 Project Objective
+## Project Objective
 
 Customer churn directly impacts profitability. This project identifies the driving factors behind customer exits and provides actionable insights through a comprehensive dashboard. It uses data-driven storytelling to visualize how demographics, credit behavior, and account activity affect customer retention.
 
 ---
 
-## 📊 Dashboard Overview
+## Dashboard Overview
 
 The Power BI report includes:
 
@@ -29,7 +29,7 @@ The Power BI report includes:
 
 ---
 
-## 📄 Business Requirement Document (BRD)
+## Business Requirement Document (BRD)
 
 The dataset includes several attributes related to customer demographics and financial activity. Key fields include:
 
@@ -55,7 +55,7 @@ The dataset includes several attributes related to customer demographics and fin
 
 ---
 
-## 📂 Data Sources
+## Data Sources
 
 The analysis was performed using the following files:
 
@@ -71,7 +71,7 @@ All files are available in the `/DataSets/` folder.
 
 ---
 
-## 🛠️ How to Run the Report
+## How to Run the Report
 
 1. Clone or download this repository.
 2. Open `Customer Churn Analysis Report.pbix` in **Power BI Desktop**.
